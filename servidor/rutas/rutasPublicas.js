@@ -1,10 +1,10 @@
 const express = require('express');
-const routerPublico = express.Router();
+const router = express.Router();
 
 
-routerPublico.get('/', (req, res) => {
+router.get('/', (req, res) => {
   res.send('hola');
 })
 
 
-module.exports = routerPublico;
+module.exports = router;
